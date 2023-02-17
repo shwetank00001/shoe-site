@@ -1,0 +1,68 @@
+
+
+.div-main{
+  display: flex;
+  }
+  
+  .div-img > img {
+  
+    width: 320px;
+    height: 320px;
+    left: 40px;
+    top: 100px;
+    border-radius: 70px;
+    padding: 55px;
+  }
+  
+  .div-secondary{
+    width: 450px;
+    padding: 29px;
+  }
+
+  .div-secondary button{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 8px;
+  }
+
+  .div-secondary button:hover{
+    color: rgb(104, 205, 236);
+    background-color: #201E20;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+  }
+
+
+  @media screen and (max-width: 520px) {
+    .div-main {
+      flex-direction: column;
+    }
+  
+    .div-img {
+      margin-bottom: 30px;
+    }
+  
+    .div-secondary {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  
